@@ -1,0 +1,22 @@
+## Interface: 11200
+## Title: |cffffcc00Shagu|cffffffffTweaks |cffcccccc[Extras]
+## Author: Shagu
+## Notes: A collection of tweaks and enhancements to the Default UI
+## Notes-ruRU: Коллекция настроек и улучшений для стандартного пользовательского интерфейса.
+## Version: GIT
+## Dependencies: ShaguTweaks
+
+# translations
+locales\translations_deDE.lua
+locales\translations_enUS.lua
+locales\translations_esES.lua
+locales\translations_frFR.lua
+locales\translations_koKR.lua
+locales\translations_ruRU.lua
+locales\translations_zhCN.lua
+locales\translations_zhTW.lua
+
+# core
+main.lua
+
+# modules
