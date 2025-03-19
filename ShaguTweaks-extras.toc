@@ -25,3 +25,4 @@ mods\macro-icons.lua
 mods\macro-tweaks.lua
 mods\worldmap-reveal.lua
 mods\reduced-actionbar-bags.lua
+mods\reduced-actionbar-micromenu.lua
