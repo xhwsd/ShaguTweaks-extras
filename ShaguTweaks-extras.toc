@@ -20,4 +20,5 @@ locales\translations_zhTW.lua
 main.lua
 
 # modules
+mods\chat-history.lua
 mods\worldmap-reveal.lua
