@@ -24,3 +24,4 @@ mods\chat-history.lua
 mods\macro-icons.lua
 mods\macro-tweaks.lua
 mods\worldmap-reveal.lua
+mods\reduced-actionbar-bags.lua
