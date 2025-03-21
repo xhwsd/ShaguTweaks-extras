@@ -27,4 +27,5 @@ mods\macro-tweaks.lua
 mods\worldmap-reveal.lua
 mods\reduced-actionbar-bags.lua
 mods\reduced-actionbar-micromenu.lua
+mods\actionbar-right-center.lua
 mods\chat-text-shadow.lua
