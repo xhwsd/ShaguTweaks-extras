@@ -23,8 +23,17 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 ## Features
 
+- **Center Vertical Actionbar**  
+  *Center the vertical actionbar on the right side.*
+
 - **Chat History**  
   *Save chat history of all non-combatlog windows and restore it on login.*
+
+- **Center Text Input Box**  
+  *Move the chat input box to the center of the screen.*
+
+- **Enable Text Shadow**  
+  *Enable text shadow in all chat frames.*
 
 - **Macro Icons**  
   *Detect showtooltip and spells in macros to use them on action buttons.*
@@ -32,10 +41,10 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Macro Tweaks**  
   *Add /equip command to macros, remove #showtooltip from chat and hide macro commands from history.*
 
-- **Reduced Actionbar Bags**  
+- **Show Bags**  
   *Shows bag and keyring buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the bag bar.*
 
-- **Reduced Actionbar MicroMenu**  
+- **Show Micro Menu**  
   *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
 
 - **WorldMap Reveal**  
