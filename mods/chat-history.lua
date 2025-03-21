@@ -6,6 +6,7 @@ local module = ShaguTweaks:register({
   title = T["Chat History"],
   description = T["Save chat history of all non-combatlog windows and restore it on login."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
+  category = T["Chat"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
 })
