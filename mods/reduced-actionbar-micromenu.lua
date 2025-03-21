@@ -2,16 +2,17 @@ local _G = ShaguTweaks.GetGlobalEnv()
 local T = ShaguTweaks.T
 
 local module = ShaguTweaks:register({
-  title = T["Reduced Actionbar MicroMenu"],
+  title = T["Show Micro Menu"],
   description = T["Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu."],
   expansions = { ["vanilla"] = true, ["tbc"] = nil },
+  category = T["Reduced Actionbar Size"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
 })
 
 module.enable = function(self)
   -- only run if reduced actionbar is enabled
-  if not ShaguTweaks_config[T["Reduced Actionbar Size"]] == 1 then return end
+  if ShaguTweaks_config[T["Reduced Actionbar Size"]] == 0 then return end
 
   local frames = {
     CharacterMicroButton, SpellbookMicroButton, TalentMicroButton,
