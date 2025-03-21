@@ -21,6 +21,7 @@ main.lua
 
 # modules
 mods\chat-history.lua
+mods\chat-input-center.lua
 mods\macro-icons.lua
 mods\macro-tweaks.lua
 mods\worldmap-reveal.lua
