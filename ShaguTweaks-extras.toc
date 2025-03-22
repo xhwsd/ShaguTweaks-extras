@@ -29,3 +29,4 @@ mods\reduced-actionbar-bags.lua
 mods\reduced-actionbar-micromenu.lua
 mods\actionbar-right-center.lua
 mods\chat-text-shadow.lua
+mods\unitframe-energytick.lua
