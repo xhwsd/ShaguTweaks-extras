@@ -32,6 +32,9 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Center Vertical Actionbar**  
   *Center the vertical actionbar on the right side.*
 
+- **Bag Search Bar**  
+  *Adds a search field to the bag which allows you to search bag, keyring and bank slots.*
+
 - **Chat History**  
   *Save chat history of all non-combatlog windows and restore it on login.*
 
@@ -52,6 +55,9 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 - **Show Micro Menu**  
   *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
+
+- **Show Energy Ticks**  
+  *Show energy and mana ticks on the player unit frame.*
 
 - **Reveal World Map**  
   *Reveals unexplored world map areas and shows exploration hints.*
