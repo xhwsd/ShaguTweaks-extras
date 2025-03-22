@@ -11,14 +11,14 @@ Some extra modules and features for the [ShaguTweaks](https://github.com/shagu/S
 All addon settings can be controlled in game via the "Advanced Options" button on the Main Menu (*Esc*).
 Every of the listed features below, can be completely disabled in that menu in case you don't like it.
 
+
+## Installation (Vanilla, 1.12)
+
 > [!IMPORTANT]
 >
 > **This addon requires you to have [ShaguTweaks](https://github.com/shagu/ShaguTweaks) installed.**
 >
 > Install instructions for ShaguTweaks can be found on the [GitHub Page](https://github.com/shagu/ShaguTweaks).
-
-
-## Installation (Vanilla, 1.12)
 
 1. Download **[Latest Version](https://github.com/shagu/ShaguTweaks-extras/archive/master.zip)**
 2. Unpack the Zip file
