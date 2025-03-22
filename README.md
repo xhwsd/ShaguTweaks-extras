@@ -1,3 +1,9 @@
+> [!NOTE]  
+> This add-on is currently under active development.
+> The to-do list is still too big to handle external issues or pull requests.
+> However, if you find a bug in the current codebase, please contact me via Discord.
+> Every other request will be closed or ignored without any comment.
+
 # ShaguTweaks-extras
 
 Some extra modules and features for the [ShaguTweaks](https://github.com/shagu/ShaguTweaks) addon.
