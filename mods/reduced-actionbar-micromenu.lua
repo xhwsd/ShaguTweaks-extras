@@ -21,7 +21,7 @@ module.enable = function(self)
   }
 
   local microframe = CreateFrame("Button", "ShaguTweaksReducedActionBarMicroMenu", UIParent)
-  microframe:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -8, 8)
+  microframe:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -8, 56)
   microframe:SetWidth(225)
   microframe:SetHeight(44)
 
