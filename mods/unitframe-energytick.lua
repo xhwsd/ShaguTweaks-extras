@@ -4,7 +4,6 @@ local module = ShaguTweaks:register({
   title = T["Show Energy Ticks"],
   description = T["Show energy and mana ticks on the player unit frame."],
   expansions = { ["vanilla"] = true, ["tbc"] = nil },
-  category = T["Unit Frames"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
 })
