@@ -3,7 +3,7 @@ local T = ShaguTweaks.T
 local hooksecurefunc = hooksecurefunc or ShaguTweaks.hooksecurefunc
 
 local module = ShaguTweaks:register({
-  title = T["WorldMap Reveal"],
+  title = T["Reveal World Map"],
   description = T["Reveals unexplored world map areas and shows exploration hints."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",

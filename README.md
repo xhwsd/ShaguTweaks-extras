@@ -53,5 +53,5 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Show Micro Menu**  
   *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
 
-- **WorldMap Reveal**  
+- **Reveal World Map**  
   *Reveals unexplored world map areas and shows exploration hints.*
