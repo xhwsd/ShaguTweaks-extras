@@ -19,15 +19,19 @@ locales\translations_zhTW.lua
 # core
 main.lua
 
-# modules
-mods\chat-history.lua
-mods\chat-input-center.lua
+# general
 mods\macro-icons.lua
 mods\macro-tweaks.lua
-mods\worldmap-reveal.lua
-mods\reduced-actionbar-bags.lua
-mods\reduced-actionbar-micromenu.lua
 mods\actionbar-right-center.lua
-mods\chat-text-shadow.lua
 mods\unitframe-energytick.lua
 mods\bag-search.lua
+mods\worldmap-reveal.lua
+
+# chat
+mods\chat-input-center.lua
+mods\chat-history.lua
+mods\chat-text-shadow.lua
+
+# reduced actionbar size
+mods\reduced-actionbar-bags.lua
+mods\reduced-actionbar-micromenu.lua
