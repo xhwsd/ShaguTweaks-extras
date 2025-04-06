@@ -36,6 +36,7 @@ mods\chat-text-shadow.lua
 mods\raid.lua
 mods\raid-party.lua
 mods\raid-group-header.lua
+mods\raid-combat-feedback.lua
 mods\raid-hide-party.lua
 
 # reduced actionbar size
