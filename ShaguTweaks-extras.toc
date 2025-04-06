@@ -32,6 +32,9 @@ mods\chat-input-center.lua
 mods\chat-history.lua
 mods\chat-text-shadow.lua
 
+# raid frames
+mods\raid.lua
+
 # reduced actionbar size
 mods\reduced-actionbar-bags.lua
 mods\reduced-actionbar-micromenu.lua
