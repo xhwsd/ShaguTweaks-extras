@@ -7,7 +7,7 @@ local module = ShaguTweaks:register({
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   category = T["Raid Frames"],
   maintainer = "@shagu (GitHub)",
-  enabled = nil,
+  enabled = true,
 })
 
 local debuffs = {

@@ -6,7 +6,7 @@ local module = ShaguTweaks:register({
   description = T["Adds a search field to the bag which allows you to search bag, keyring and bank slots."],
   expansions = { ["vanilla"] = true, ["tbc"] = nil },
   maintainer = "@shagu (GitHub)",
-  enabled = nil,
+  enabled = true,
 })
 
 module.enable = function(self)

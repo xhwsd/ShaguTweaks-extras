@@ -8,7 +8,7 @@ local module = ShaguTweaks:register({
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   category = T["Chat"],
   maintainer = "@shagu (GitHub)",
-  enabled = nil,
+  enabled = true,
 })
 
 module.enable = function(self)
