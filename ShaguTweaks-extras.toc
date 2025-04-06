@@ -34,6 +34,7 @@ mods\chat-text-shadow.lua
 
 # raid frames
 mods\raid.lua
+mods\raid-party.lua
 
 # reduced actionbar size
 mods\reduced-actionbar-bags.lua
