@@ -39,6 +39,7 @@ mods\raid-group-header.lua
 mods\raid-combat-feedback.lua
 mods\raid-dispel-indicators.lua
 mods\raid-aggro-indicator.lua
+mods\raid-healing-predictions.lua
 mods\raid-hide-party.lua
 
 # reduced actionbar size
