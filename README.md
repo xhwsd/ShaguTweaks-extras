@@ -29,11 +29,7 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 ## Features
 
-- **Center Vertical Actionbar**  
-  *Center the vertical actionbar on the right side.*
-
-- **Bag Search Bar**  
-  *Adds a search field to the bag which allows you to search bag, keyring and bank slots.*
+### Chat
 
 - **Chat History**  
   *Save chat history of all non-combatlog windows and restore it on login.*
@@ -44,11 +40,59 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Enable Text Shadow**  
   *Enable text shadow in all chat frames.*
 
+
+### General
+
+- **Center Vertical Actionbar**  
+  *Center the vertical actionbar on the right side.*
+
+- **Bag Search Bar**  
+  *Adds a search field to the bag which allows you to search bag, keyring and bank slots.*
+
 - **Macro Icons**  
   *Detect showtooltip and spells in macros to use them on action buttons.*
 
 - **Macro Tweaks**  
   *Add /equip command to macros, remove #showtooltip from chat and hide macro commands from history.*
+
+- **Show Energy Ticks**  
+  *Show energy and mana ticks on the player unit frame.*
+
+- **Reveal World Map**  
+  *Reveals unexplored world map areas and shows exploration hints.*
+
+
+### Raid
+
+- **Enable Raid Frames**  
+  *Very simple raid frames with only the most basic features.*
+
+- **Show Aggro Indicators**  
+  *Show indicators on raid members that are currently attacked by other units. (This only works if the unit is a target of a raid member)*
+
+- **Show Combat Feedback**  
+  *Show combat feedback numbers on health bars.*
+
+- **Show Dispel Indicators**  
+  *Show indicators for units affected by curse, magic, poison or diseases based on your class.*
+
+- **Show Group Headers**  
+  *Display group headers on raid frames*
+
+- **Show Healing Predictions**  
+  *Show healing predictions that are received in a healcomm compatible protocol.*
+
+- **Hide Party Frames**  
+  *Disable default party frames while the raidframes are active.*
+
+- **Use As Party Frames**  
+  *Use raid frames to display party members in regular groups*
+
+- **Use Compact Layout**  
+  *Reduces the raid frame size and the displayed elements. As a healer, you should never use this layout.*
+
+
+### Reduced Actionbar Size
 
 - **Show Bags**  
   *Shows bag and keyring buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the bag bar.*
@@ -56,8 +100,3 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Show Micro Menu**  
   *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
 
-- **Show Energy Ticks**  
-  *Show energy and mana ticks on the player unit frame.*
-
-- **Reveal World Map**  
-  *Reveals unexplored world map areas and shows exploration hints.*
