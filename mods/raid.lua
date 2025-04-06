@@ -127,9 +127,11 @@ local UnitFrame_OnClick = function()
   if button == "LeftButton" then
     TargetUnit(this.unitstr)
   elseif button == "RightButton" then
+    local unitstr = this.unitstr
+    local name = UnitName(this.unitstr)
     FriendsDropDown.displayMode = "MENU"
     FriendsDropDown.initialize = function()
-      UnitPopup_ShowMenu(_G[UIDROPDOWNMENU_OPEN_MENU], "PARTY", this.unitstr, UnitName(this.unitstr))
+      UnitPopup_ShowMenu(_G[UIDROPDOWNMENU_OPEN_MENU], "PARTY", unitstr, name)
     end
     ToggleDropDownMenu(1, nil, FriendsDropDown, "cursor")
   end
