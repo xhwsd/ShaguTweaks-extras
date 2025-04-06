@@ -40,21 +40,23 @@ module.enable = function(self)
   -- wait for the game to be loaded
   local delay = CreateFrame("Frame")
   delay:SetScript("OnUpdate", function()
-      -- modify group headers
-      for i=1, 8 do
-        if ShaguTweaksRaidHeaders[i] then
-          -- read raid anchor per group header
-          local _, anchor = ShaguTweaksRaidHeaders[i]:GetPoint()
+      if ShaguTweaksRaidHeaders then
+        -- modify group headers
+        for i=1, 8 do
+          if ShaguTweaksRaidHeaders[i] then
+            -- read raid anchor per group header
+            local _, anchor = ShaguTweaksRaidHeaders[i]:GetPoint()
 
-          -- remove background and move to the left
-          --ShaguTweaksRaidHeaders[i]:SetBackdrop(nil)
-          ShaguTweaksRaidHeaders[i]:ClearAllPoints()
-          ShaguTweaksRaidHeaders[i]:SetPoint("LEFT", anchor, "LEFT", -6, 6)
-          ShaguTweaksRaidHeaders[i]:SetWidth(16)
-          ShaguTweaksRaidHeaders[i]:SetHeight(16)
-          --ShaguTweaksRaidHeaders[i].text:SetTextColor(.5,.5,.5,1)
-          ShaguTweaksRaidHeaders[i].text:SetText(i)
-          ShaguTweaksRaidHeaders[i]:SetAlpha(.75)
+            -- remove background and move to the left
+            --ShaguTweaksRaidHeaders[i]:SetBackdrop(nil)
+            ShaguTweaksRaidHeaders[i]:ClearAllPoints()
+            ShaguTweaksRaidHeaders[i]:SetPoint("LEFT", anchor, "LEFT", -6, 6)
+            ShaguTweaksRaidHeaders[i]:SetWidth(16)
+            ShaguTweaksRaidHeaders[i]:SetHeight(16)
+            --ShaguTweaksRaidHeaders[i].text:SetTextColor(.5,.5,.5,1)
+            ShaguTweaksRaidHeaders[i].text:SetText(i)
+            ShaguTweaksRaidHeaders[i]:SetAlpha(.75)
+          end
         end
       end
 
