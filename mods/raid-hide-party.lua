@@ -17,7 +17,6 @@ module.enable = function(self)
   local scanner = CreateFrame("Frame", nil, UIParent)
   scanner:SetScript("OnUpdate", function()
     if ShaguTweaksRaidFrame and ShaguTweaksRaidFrame:IsShown() then
-      --print("REMOVE GROUP")
       if not this.disable then
         -- disable all party frames
         for i = 1, MAX_PARTY_MEMBERS do
@@ -31,7 +30,6 @@ module.enable = function(self)
         this.disable = true
       end
     else
-      --print("RESTORE GROUP")
       if this.disable then
         -- enable all party frames
         for i = 1, MAX_PARTY_MEMBERS do
