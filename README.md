@@ -28,6 +28,7 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 
 ## Features
+<img src="screenshots/raid.jpg" float="right" align="right" width="33%">
 
 ### Chat
 
