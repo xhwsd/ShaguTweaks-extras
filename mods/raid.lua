@@ -9,7 +9,13 @@ local module = ShaguTweaks:register({
   category = T["Raid Frames"],
   maintainer = "@shagu (GitHub)",
   enabled = true,
-  config = { width = 64, height = 32, rows = 10 }
+  config = {
+    raid = {
+      width = 64,
+      height = 32,
+      rows = 10
+    }
+  }
 })
 
 local components = {}
@@ -598,6 +604,6 @@ module.enable = function(self)
     ShaguTweaks.DarkenFrame(raid.cluster)
 
     -- assign default config
-    raid.cluster.config = module.config
+    raid.cluster.config = module.config.raid
   end
 end
