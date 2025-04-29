@@ -566,7 +566,7 @@ module.enable = function(self)
         this.dragging = true
 
         local px, py = GetCursorPosition()
-        local scale = UIParent:GetEffectiveScale()
+        local scale = this:GetEffectiveScale()
         px, py = px / scale, py / scale
         raid.toggle:ClearAllPoints()
         raid.toggle:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", -8, py-32)
@@ -589,7 +589,7 @@ module.enable = function(self)
       if not this.dragging then return end
 
       local px, py = GetCursorPosition()
-      local scale = UIParent:GetEffectiveScale()
+      local scale = this:GetEffectiveScale()
       px, py = px / scale, py / scale
       raid.toggle:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", -8, py-32)
     end)
