@@ -12,9 +12,9 @@ local module = ShaguTweaks:register({
 
 module.enable = function(self)
   -- overwrite config
-  ShaguTweaksRaidCluster.config.width = 64
-  ShaguTweaksRaidCluster.config.height = 12
-  ShaguTweaksRaidCluster.config.rows = 40
+  ShaguTweaksRaidCluster.config["raid.width"] = 64
+  ShaguTweaksRaidCluster.config["raid.height"] = 12
+  ShaguTweaksRaidCluster.config["raid.rows"] = 40
 
   -- disable mana bars
   ShaguTweaks.UnitFrame_NewComponent('compact layout', {

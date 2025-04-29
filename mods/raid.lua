@@ -10,11 +10,10 @@ local module = ShaguTweaks:register({
   maintainer = "@shagu (GitHub)",
   enabled = true,
   config = {
-    raid = {
-      width = 64,
-      height = 32,
-      rows = 10
-    }
+    ["raid.width"] = 64,
+    ["raid.height"] = 32,
+    ["raid.rows"] = 10,
+    ["raid.scale"] = 1,
   }
 })
 
@@ -156,11 +155,11 @@ end
 
 local CreateUnitFrame = function(parent, i)
   local frame = parent.frames[i] or CreateFrame("Button", "ShaguTweaksRaidUnitFrame"..i, parent)
-  local left, top = GetFramePosition(i, parent.config.rows)
+  local left, top = GetFramePosition(i, parent.config["raid.rows"])
 
-  frame:SetPoint("TOPLEFT", (left-1)*(parent.config.width+2) + 4, -(top-1)*(parent.config.height + 1) - 4)
-  frame:SetWidth(parent.config.width)
-  frame:SetHeight(parent.config.height)
+  frame:SetPoint("TOPLEFT", (left-1)*(parent.config["raid.width"]+2) + 4, -(top-1)*(parent.config["raid.height"] + 1) - 4)
+  frame:SetWidth(parent.config["raid.width"])
+  frame:SetHeight(parent.config["raid.height"])
 
   frame.unitstr = "raid"..i
   frame.left = left
@@ -504,13 +503,16 @@ module.enable = function(self)
       end
 
       -- set raid frame size
-      raid.cluster:SetWidth(x * (raid.cluster.config.width+2) + 6)
-      raid.cluster:SetHeight(y * (raid.cluster.config.height+1) + 7)
+      raid.cluster:SetWidth(x * (raid.cluster.config["raid.width"]+2) + 6)
+      raid.cluster:SetHeight(y * (raid.cluster.config["raid.height"]+1) + 7)
       raid:Show()
     else
       raid:Hide()
     end
   end)
+
+  -- assign defaul scale
+  raid:SetScale(module.config["raid.scale"])
 
   do -- toggle button
     -- create toggle button
@@ -604,6 +606,6 @@ module.enable = function(self)
     ShaguTweaks.DarkenFrame(raid.cluster)
 
     -- assign default config
-    raid.cluster.config = module.config.raid
+    raid.cluster.config = module.config
   end
 end

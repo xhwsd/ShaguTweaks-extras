@@ -52,8 +52,8 @@ module.enable = function(self)
       end
 
       -- set raid frame size
-      raid.cluster:SetWidth(x * (raid.cluster.config.width+2) + 6)
-      raid.cluster:SetHeight(y * (raid.cluster.config.height+1) + 7)
+      raid.cluster:SetWidth(x * (raid.cluster.config["raid.width"]+2) + 6)
+      raid.cluster:SetHeight(y * (raid.cluster.config["raid.height"]+1) + 7)
       raid:Show()
     else
       raid:Hide()
