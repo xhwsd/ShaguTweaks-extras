@@ -8,6 +8,9 @@ local module = ShaguTweaks:register({
   category = T["Reduced Actionbar Size"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
+  config = {
+    ["panelbag.scale"] = 1,
+  }
 })
 
 module.enable = function(self)
@@ -20,9 +23,10 @@ module.enable = function(self)
   }
 
   local bagframe = CreateFrame("Button", "ShaguTweaksReducedActionBarBags", UIParent)
-  bagframe:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -8, 8)
-  bagframe:SetWidth(225)
-  bagframe:SetHeight(50)
+  bagframe:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -8, 48)
+  bagframe:SetWidth(180)
+  bagframe:SetHeight(42)
+  bagframe:SetScale(module.config["panelbag.scale"])
 
   bagframe:SetFrameStrata("MEDIUM")
   bagframe:SetBackdrop({
@@ -80,6 +84,7 @@ module.enable = function(self)
       local anchor = frames[id-1] or bagframe
       frame:SetPoint("LEFT", anchor, id == 1 and "LEFT" or "RIGHT", id == 1 and 5 or 2, 0)
       frame:SetParent(bagframe)
+      frame:SetScale(.8)
       frame.Show = frame:Show()
       frame:Show()
     end
