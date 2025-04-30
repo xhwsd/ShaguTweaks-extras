@@ -23,6 +23,7 @@ main.lua
 mods\macro-icons.lua
 mods\macro-tweaks.lua
 mods\actionbar-right-center.lua
+mods\actionbar-reagents.lua
 mods\unitframe-energytick.lua
 mods\bag-search.lua
 mods\worldmap-reveal.lua
