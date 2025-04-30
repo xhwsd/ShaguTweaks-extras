@@ -4,7 +4,7 @@ local libtipscan = ShaguTweaks.libtipscan
 local GetItemCount = ShaguTweaks.GetItemCount
 
 local module = ShaguTweaks:register({
-  title = T["Actionbar Reagent Count"],
+  title = T["Reagent Counter"],
   description = T["Shows a reagent counter on action buttons."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",

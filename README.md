@@ -56,6 +56,9 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Macro Tweaks**  
   *Add /equip command to macros, remove #showtooltip from chat and hide macro commands from history.*
 
+- **Reagent Counter**  
+  *Shows a reagent counter on action buttons.*
+
 - **Show Energy Ticks**  
   *Show energy and mana ticks on the player unit frame.*
 
