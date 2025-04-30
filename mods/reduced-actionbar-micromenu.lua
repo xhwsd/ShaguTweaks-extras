@@ -8,6 +8,9 @@ local module = ShaguTweaks:register({
   category = T["Reduced Actionbar Size"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
+  config = {
+    ["panelmicro.scale"] = 1,
+  }
 })
 
 module.enable = function(self)
@@ -21,7 +24,7 @@ module.enable = function(self)
   }
 
   local microframe = CreateFrame("Button", "ShaguTweaksReducedActionBarMicroMenu", UIParent)
-  microframe:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -8, 56)
+  microframe:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -8, 8)
   microframe:SetWidth(225)
   microframe:SetHeight(44)
 
