@@ -6,6 +6,7 @@ local module = ShaguTweaks:register({
   description = T["Replaces actionbar gryphons with the dragonflight version."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
+  category = T["Action Bar"],
   enabled = nil,
 })
 

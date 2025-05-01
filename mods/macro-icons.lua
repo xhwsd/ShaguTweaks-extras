@@ -7,6 +7,7 @@ local module = ShaguTweaks:register({
   description = T["Detect showtooltip and spells in macros to use them on action buttons."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
+  category = T["Macro"],
   enabled = nil,
 })
 

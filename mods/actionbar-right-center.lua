@@ -7,6 +7,7 @@ local module = ShaguTweaks:register({
   description = T["Center the vertical actionbar on the right side."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
+  category = T["Action Bar"],
   enabled = nil,
 })
 

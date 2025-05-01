@@ -6,6 +6,7 @@ local module = ShaguTweaks:register({
   description = T["Add /equip command to macros, remove #showtooltip from chat and hide macro commands from history."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
+  category = T["Macro"],
   enabled = nil,
 })
 

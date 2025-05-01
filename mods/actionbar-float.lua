@@ -6,6 +6,7 @@ local module = ShaguTweaks:register({
   description = T["Removes all background textures and lets the actionbar float."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
+  category = T["Action Bar"],
   enabled = nil,
 })
 

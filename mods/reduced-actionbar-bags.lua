@@ -5,7 +5,7 @@ local module = ShaguTweaks:register({
   title = T["Show Bags"],
   description = T["Shows bag and keyring buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the bag bar."],
   expansions = { ["vanilla"] = true, ["tbc"] = nil },
-  category = T["Reduced Actionbar Size"],
+  category = T["Action Bar"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
   config = {

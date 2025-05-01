@@ -5,7 +5,7 @@ local module = ShaguTweaks:register({
   title = T["Show Micro Menu"],
   description = T["Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu."],
   expansions = { ["vanilla"] = true, ["tbc"] = nil },
-  category = T["Reduced Actionbar Size"],
+  category = T["Action Bar"],
   maintainer = "@shagu (GitHub)",
   enabled = nil,
   config = {

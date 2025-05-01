@@ -8,6 +8,7 @@ local module = ShaguTweaks:register({
   description = T["Shows a reagent counter on action buttons."],
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
+  category = T["Action Bar"],
   enabled = nil,
 })
 
