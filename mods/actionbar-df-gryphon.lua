@@ -19,18 +19,18 @@ module.enable = function(self)
   gryphon:RegisterEvent("PLAYER_ENTERING_WORLD")
   gryphon:SetScript("OnEvent", function()
     -- replace original gryphons by dragonflight versions
-    if module.config["dragonfly.gryphon"] == "beta" then
-      -- artwork during beta
-      MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon-beta")
-      MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon-beta")
-    elseif UnitFactionGroup("player") == "Horde" then
+    if module.config["dragonfly.gryphon"] == "retail" and UnitFactionGroup("player") == "Horde" then
       -- retail horde
       MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-wyvern")
       MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-wyvern")
-    else
+    elseif module.config["dragonfly.gryphon"] == "retail" and UnitFactionGroup("player") == "Alliance" then
       -- retail alliance
       MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
       MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
+    else
+      -- beta artwork
+      MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon-beta")
+      MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon-beta")
     end
 
     -- move gryphons above action buttons
