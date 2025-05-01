@@ -66,6 +66,9 @@ module.enable = function(self)
     end
   end
 
+  -- hide max level top frame
+  MainMenuBarMaxLevelBar:SetAlpha(0)
+
   -- remove textures
   for _, texture in pairs(texture_removals) do
     if texture then
