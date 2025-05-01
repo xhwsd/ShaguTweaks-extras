@@ -1,15 +1,8 @@
-> [!NOTE]  
-> This add-on is currently under active development.
-> The to-do list is still too big to handle external issues or pull requests.
-> However, if you find a bug in the current codebase, please contact me via Discord.
-> Every other request will be closed or ignored without any comment.
-
 # ShaguTweaks-extras
 
-Some extra modules and features for the [ShaguTweaks](https://github.com/shagu/ShaguTweaks) addon.
+This addon extends the capabilities of [ShaguTweaks](https://github.com/shagu/ShaguTweaks) by offering optional modules that can be easily toggled on or off. The new features integrate fully with the "Advanced Options" panel, providing a seamless experience.
 
-All addon settings can be controlled in game via the "Advanced Options" button on the Main Menu (*Esc*).
-Every of the listed features below, can be completely disabled in that menu in case you don't like it.
+For a detailed view of what's new and improved, check out the feature list below.
 
 
 ## Installation (Vanilla, 1.12)
@@ -28,7 +21,6 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 
 ## Features
-<img src="screenshots/raid.jpg" float="right" align="right" width="33%">
 
 ### Action Bar
 - **Center Vertical Actionbar**  
@@ -49,6 +41,7 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Show Micro Menu**  
   *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
 
+<p align="center"><img src="screenshots/actionbar.gif"></p>
 
 ### Chat
 - **Chat History**  
@@ -81,6 +74,8 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 
 ### Raid
+<img src="screenshots/raid.jpg" float="right" align="right" width="33%">
+
 - **Enable Raid Frames**  
   *Very simple raid frames with only the most basic features.*
 
@@ -107,3 +102,7 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 - **Use Compact Layout**  
   *Reduces the raid frame size and the displayed elements. As a healer, you should never use this layout.*
+
+
+## Contact & Support
+Due to time constraints, I am currently unable to process feature requests. However, if you encounter any bugs or issues, please don't hesitate to reach out to me through Discord.
