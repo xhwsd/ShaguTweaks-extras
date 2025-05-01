@@ -7,16 +7,29 @@ local module = ShaguTweaks:register({
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
   category = T["Action Bar"],
+  config = {
+    ["dragonfly.gryphon"] = "retail",
+  },
   enabled = nil,
 })
 
 module.enable = function(self)
-  -- replace original gryphons by dragonflight versions
-  if UnitFactionGroup("player") == "Horde" then
-    MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-wyvern")
-    MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-wyvern")
-  else
-    MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
-    MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
-  end
+  local loader = CreateFrame("Frame")
+  loader:RegisterEvent("PLAYER_ENTERING_WORLD")
+  loader:SetScript("OnEvent", function()
+    -- replace original gryphons by dragonflight versions
+    if module.config["dragonfly.gryphon"] == "beta" then
+      -- artwork during beta
+      MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon-beta")
+      MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon-beta")
+    elseif UnitFactionGroup("player") == "Horde" then
+      -- retail horde
+      MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-wyvern")
+      MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-wyvern")
+    else
+      -- retail alliance
+      MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
+      MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
+    end
+  end)
 end
