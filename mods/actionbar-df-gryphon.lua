@@ -14,9 +14,10 @@ local module = ShaguTweaks:register({
 })
 
 module.enable = function(self)
-  local loader = CreateFrame("Frame")
-  loader:RegisterEvent("PLAYER_ENTERING_WORLD")
-  loader:SetScript("OnEvent", function()
+  local gryphon = CreateFrame("Frame", nil, MainMenuBarArtFrame)
+  gryphon:SetFrameStrata("HIGH")
+  gryphon:RegisterEvent("PLAYER_ENTERING_WORLD")
+  gryphon:SetScript("OnEvent", function()
     -- replace original gryphons by dragonflight versions
     if module.config["dragonfly.gryphon"] == "beta" then
       -- artwork during beta
@@ -31,5 +32,9 @@ module.enable = function(self)
       MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
       MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\ShaguTweaks-extras\\img\\df-gryphon")
     end
+
+    -- move gryphons above action buttons
+    MainMenuBarLeftEndCap:SetParent(this)
+    MainMenuBarRightEndCap:SetParent(this)
   end)
 end
