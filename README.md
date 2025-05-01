@@ -30,8 +30,27 @@ Every of the listed features below, can be completely disabled in that menu in c
 ## Features
 <img src="screenshots/raid.jpg" float="right" align="right" width="33%">
 
-### Chat
+### Action Bar
+- **Center Vertical Actionbar**  
+  *Center the vertical actionbar on the right side.*
 
+- **Dragonflight Gryphons**  
+  *Replaces actionbar gryphons with the dragonflight version.*
+
+- **Floating Actionbar**  
+  *Removes all background textures and lets the actionbar float.*
+
+- **Reagent Counter**  
+  *Shows a reagent counter on action buttons.*
+
+- **Show Bags**  
+  *Shows bag and keyring buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the bag bar.*
+
+- **Show Micro Menu**  
+  *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
+
+
+### Chat
 - **Chat History**  
   *Save chat history of all non-combatlog windows and restore it on login.*
 
@@ -43,21 +62,8 @@ Every of the listed features below, can be completely disabled in that menu in c
 
 
 ### General
-
-- **Center Vertical Actionbar**  
-  *Center the vertical actionbar on the right side.*
-
 - **Bag Search Bar**  
   *Adds a search field to the bag which allows you to search bag, keyring and bank slots.*
-
-- **Macro Icons**  
-  *Detect showtooltip and spells in macros to use them on action buttons.*
-
-- **Macro Tweaks**  
-  *Add /equip command to macros, remove #showtooltip from chat and hide macro commands from history.*
-
-- **Reagent Counter**  
-  *Shows a reagent counter on action buttons.*
 
 - **Show Energy Ticks**  
   *Show energy and mana ticks on the player unit frame.*
@@ -66,10 +72,20 @@ Every of the listed features below, can be completely disabled in that menu in c
   *Reveals unexplored world map areas and shows exploration hints.*
 
 
-### Raid
+### Macro
+- **Macro Icons**  
+  *Detect showtooltip and spells in macros to use them on action buttons.*
 
+- **Macro Tweaks**  
+  *Add /equip command to macros, remove #showtooltip from chat and hide macro commands from history.*
+
+
+### Raid
 - **Enable Raid Frames**  
   *Very simple raid frames with only the most basic features.*
+
+- **Hide Party Frames**  
+  *Disable default party frames while the raidframes are active.*
 
 - **Show Aggro Indicators**  
   *Show indicators on raid members that are currently attacked by other units. (This only works if the unit is a target of a raid member)*
@@ -86,21 +102,8 @@ Every of the listed features below, can be completely disabled in that menu in c
 - **Show Healing Predictions**  
   *Show healing predictions that are received in a healcomm compatible protocol.*
 
-- **Hide Party Frames**  
-  *Disable default party frames while the raidframes are active.*
-
 - **Use As Party Frames**  
   *Use raid frames to display party members in regular groups*
 
 - **Use Compact Layout**  
   *Reduces the raid frame size and the displayed elements. As a healer, you should never use this layout.*
-
-
-### Reduced Actionbar Size
-
-- **Show Bags**  
-  *Shows bag and keyring buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the bag bar.*
-
-- **Show Micro Menu**  
-  *Shows micro menu buttons when using the reduced actionbar layout. Hold Ctrl+Shift to move the micro menu.*
-
