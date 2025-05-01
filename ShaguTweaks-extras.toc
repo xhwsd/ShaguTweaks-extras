@@ -22,6 +22,7 @@ main.lua
 # general
 mods\macro-icons.lua
 mods\macro-tweaks.lua
+mods\actionbar-df-gryphon.lua
 mods\actionbar-right-center.lua
 mods\actionbar-reagents.lua
 mods\actionbar-float.lua
