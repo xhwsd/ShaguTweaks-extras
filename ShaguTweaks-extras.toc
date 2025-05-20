@@ -35,6 +35,7 @@ mods\worldmap-reveal.lua
 mods\chat-input-center.lua
 mods\chat-history.lua
 mods\chat-text-shadow.lua
+mods\chat-timestamps.lua
 
 # raid frames
 mods\raid.lua

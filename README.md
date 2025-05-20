@@ -47,6 +47,9 @@ For a detailed view of what's new and improved, check out the feature list below
 - **Chat History**  
   *Save chat history of all non-combatlog windows and restore it on login.*
 
+- **Chat Timestamps**  
+  *Add timestamps to chat messages.*
+
 - **Center Text Input Box**  
   *Move the chat input box to the center of the screen.*
 
