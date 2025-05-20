@@ -27,6 +27,7 @@ mods\actionbar-right-center.lua
 mods\actionbar-reagents.lua
 mods\actionbar-float.lua
 mods\unitframe-energytick.lua
+mods\bag-item-click.lua
 mods\bag-search.lua
 mods\worldmap-reveal.lua
 

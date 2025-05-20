@@ -55,6 +55,9 @@ For a detailed view of what's new and improved, check out the feature list below
 
 
 ### General
+- **Bag Item Click**  
+  *Send items to trade window or auction house search via right click.*
+
 - **Bag Search Bar**  
   *Adds a search field to the bag which allows you to search bag, keyring and bank slots.*
 
