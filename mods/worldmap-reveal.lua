@@ -8,6 +8,9 @@ local module = ShaguTweaks:register({
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
   enabled = true,
+  config = {
+    ["map.reveal.marker"] = "on",
+  }
 })
 
 -- Vanilla WoW MapOverlayData
@@ -239,7 +242,7 @@ module.enable = function(self)
       explore.tex:SetAllPoints()
 
       -- show exploration points
-      if enabled and not alreadyknown[textureName] then
+      if self.config["map.reveal.marker"] == "on" and enabled and not alreadyknown[textureName] then
         explore.tex:SetTexture("Interface\\WorldMap\\WorldMap-MagnifyingGlass")
         explore:Show()
       else
