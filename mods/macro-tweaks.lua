@@ -7,7 +7,7 @@ local module = ShaguTweaks:register({
   expansions = { ["vanilla"] = true, ["tbc"] = false },
   maintainer = "@shagu (GitHub)",
   category = T["Macro"],
-  enabled = nil,
+  enabled = true,
 })
 
 module.enable = function(self)
