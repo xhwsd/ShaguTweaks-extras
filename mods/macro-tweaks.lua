@@ -38,6 +38,23 @@ module.enable = function(self)
     end)
   end
 
+  local function FindItem(item)
+    for bag = 4, 0, -1 do
+      for slot = 1, GetContainerNumSlots(bag) do
+        local itemLink = GetContainerItemLink(bag,slot)
+        if itemLink then
+          local _, _, parse = strfind(itemLink, "(%d+):")
+          local query = GetItemInfo(parse)
+          if query and query ~= "" and string.lower(query) == string.lower(item) then
+            return bag, slot
+          end
+        end
+      end
+    end
+
+    return nil
+  end
+
   -- add /use and /equip to the macro api:
   -- https://wowwiki.fandom.com/wiki/Making_a_macro
   -- supported arguments:
