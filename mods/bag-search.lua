@@ -85,8 +85,8 @@ module.enable = function(self)
     if BankFrame:IsVisible() then
       for i = 1, 28 do
         local button = _G["BankFrameItem"..i]
-        local texture = _G[button:GetName().."IconTexture"]
-        if button then
+        local texture = button and _G[button:GetName().."IconTexture"]
+        if button and texture then
           local link = GetContainerItemLink(-1, i)
           button:SetAlpha(.25)
           texture:SetDesaturated(1)
